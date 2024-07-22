@@ -13,14 +13,32 @@ body {
   Verdana,Helvetica,Arial,sans-serif;
 }
 
-.title, .image {
-  text-align:center;
+/*
+.scroll_up {
+  transition: 0.8s ease-in-out;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.scroll_up.on {
+  transform: translateY(0);
+  opacity: 1.0;
+}
+*/
+
+.bold {
+  font-weight: bold;
+}
+
+.title, .images {
   margin:20px 0 20px 0;
 }
 
-.title {
-  background-color: white;
-  padding: 10px 0;
+.title2 {
+  color: white;
+  font-size: 100%;
+  text-align: center;
+  margin: 40px 0 30px 0;
 }
 
 .top-v {
@@ -31,13 +49,13 @@ body {
   width:calc(100% - 100px);
 }
 
-.bold{
-  font-weight: bold;
-}
-
-.kiyaku-img,.service-img{
+.title-img,.kiyaku-img,.service-img {
   margin: 20px 0 0 0;
   width:100%;
+}
+
+.title-img {
+  margin: -20px 0 0 0;
 }
 
 .kiyaku-img {
