@@ -2,9 +2,25 @@
 
 /* text */
 
+html {
+  background-image: url(../image/back-img.jpg);
+}
+
+body {
+  font-family: "ヒラギノ角ゴ ProN W3",
+  HiraKakuProN-W3, 游ゴシック,
+  "Yu Gothic", メイリオ, Meiryo,
+  Verdana,Helvetica,Arial,sans-serif;
+}
+
 .title, .image {
   text-align:center;
   margin:20px 0 20px 0;
+}
+
+.title {
+  background-color: white;
+  padding: 10px 0;
 }
 
 .top-v {
@@ -19,12 +35,11 @@
   font-weight: bold;
 }
 
-.kiyaku-img{
+.kiyaku-img,.service-img{
   margin: 20px 0 0 0;
-  width:calc(100% - 100px);
+  width:100%;
 }
 
-.service-img{
-  margin:20px 0 0 0;
-  width:calc(100% - 100px);
+.kiyaku-img {
+  margin: 40px 0 20px 0;
 }
